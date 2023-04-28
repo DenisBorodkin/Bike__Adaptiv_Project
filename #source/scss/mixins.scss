@@ -6,6 +6,14 @@
 	display: flex;
 	font-size: 0;
 }
+@mixin flexorder($val){
+-webkit-box-ordinal-group: $val;
+-moz-box-ordinal-group: $val;
+-ms-flex-order:$val;
+-webkit-order:$val;
+order: $val;
+}
+
 @mixin tr($x,$y,$z){
 transform: translate3d($x,$y,$z);
 -webkit-transform: translate3d($x,$y,$z);

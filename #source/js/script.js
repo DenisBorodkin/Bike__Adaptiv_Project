@@ -24,6 +24,6 @@ $(document).ready(function () {
 	ibg[i].style.backgroundImage = 'url('+ibg[i].querySelector('img').getAttribute('src')+')';
 	}
 	}
-	}
+	}*/
 	
-	ibg();*/
+	ibg();
